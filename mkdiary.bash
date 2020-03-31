@@ -1,5 +1,5 @@
 #!/bin/bash
-directory="${HOME}/diary" #HOME=/home/tomita
+directory="${HOME}/diary/$(date '+%Y-%m')" #HOME=/home/tomita
 # If there is no directory, make directory
 if [ ! -d "$directory" ]; then
     mkdir "$directory"
